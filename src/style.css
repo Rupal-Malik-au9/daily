@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+/* bakery */
+.green_heading {
+  max-width: 65vw;
+  font-size: 7.7vh;
+  color: #8ac03b;
+  font-family: "Chivo", sans-serif;
+  font-weight: 100;
+  margin-bottom: 11.5vh;
+  margin-top: 22.5vh;
+  line-height: 5.5rem;
+}
+
+.black_heading {
+  max-width: 60vw;
+  font-size: 12.5vh;
+  font-family: "Chivo", sans-serif;
+  font-weight: 1000;
+  color: #1d2b44;
+  margin-bottom: 33vh;
+  line-height: 5.5rem;
+}
+
+.sidebar_heading {
+  font-size: 30px;
+  width: 30vh;
+  font-family: "Nunito", sans-serif;
+  color: #073763;
+}
+
+.para_heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #073763;
+  font-family: "chivo", sans-serif;
+  margin-bottom: 15vh;
+}
+.container {
+  margin-bottom: 10vh;
+}
+ul.link_container {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.sticky-top {
+  top: 20vh;
+  z-index: 0;
+}
+
+.sidebar_link {
+  color: black;
+  list-style-type: none !important;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  font-family: "Chivo", sans-serif;
+  font-size: 18px;
+  line-height: 2.5;
+  padding: 10px;
+  font-weight: normal;
+  margin-bottom: 2px;
+}
+
+.sidebar_link:hover {
+  opacity: 0.1;
+  color: black;
+}
+
+small {
+  color: grey;
+}
+
+.head {
+  margin: 0vh 0vh 0vh 15vh;
+}
+
+.para_first,
+.para_second {
+  color: #494d4e;
+  font-size: 18px;
+  font-family: "chivo", sans-serif;
+}
+.para2_heading {
+  font-size: 30px;
+  font-family: "Nunito", sans-serif;
+  color: #073763;
+  font-weight: bold;
+}
+/* blog-section */
+.Blog_heading {
+  font-size: 1.625rem;
+  text-align: center;
+  font-weight: 900;
+  color: #113d63;
+  font-family: "Nunito", sans-serif;
+  margin-top: 12vh;
+}
+
+.ReadMore {
+  text-decoration: none;
+  color: #113d63;
+  transition: all 0.4s ease-in-out;
+}
+
+.ReadMore:hover {
+  color: orange;
+  text-decoration: underline;
+}
+/* footer-styling */
+.copyright {
+  font-family: chivo, sans-serif;
+  font-weight: 200;
+  line-height: 1.5;
+  background: black;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  word-wrap: break-word;
+  font-size: 17px;
+}
+.flex-container {
+  background: #f7f7f7;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content:center ;
+  justify-content:center ;
+  
+}
+
+.flex-container > div {
+  font-family:"chivo",sans-serif;
+  width: 18rem;
+  margin: 10px;
+  font-size: 17px;
+  line-height: 1.8rem;
+  
+}
+.flex-container > div> ul{
+list-style:none}
+.flex-container > div> ul>li{
+  line-height:2.5rem;
+  cursor: pointer;
+}
+.flex-container > div> ul>li:hover{
+  color:orange
+}
+.footer_section{
+  color: #113d63;
+  font-weight:700;
+}
+.footer_section h3{
+  color: #113d63;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
